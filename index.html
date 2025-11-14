@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT. Vertex Media Group Baru</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-17411127211"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-17411127211");
+    </script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-responsip.css" />
+  </head>
+
+  <body>
+    <!-- Floating Social Icons -->
+    <div class="social-icons">
+      <a href="https://www.tiktok.com" target="_blank"
+        ><img
+          src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg"
+          alt="TikTok"
+      /></a>
+      <a href="https://www.instagram.com" target="_blank"
+        ><img
+          src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+          alt="Instagram"
+      /></a>
+      <a href="https://www.linkedin.com" target="_blank"
+        ><img
+          src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+          alt="LinkedIn"
+      /></a>
+      <a href="https://www.facebook.com" target="_blank"
+        ><img
+          src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+          alt="Facebook"
+      /></a>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar mx-auto mt-3">
+      <div class="container-fluid">
+        <!-- Logo dan Nama -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            src="assets/logo.png"
+            alt="Logo"
+            width="40"
+            height="50"
+            class="me-2"
+          />
+          <div class="brand-text ms-1">
+            <h1 class="mb-0 text-white fw-bold">PT. Vertex Media Group</h1>
+            <p class="mb-0 text-lightblue">MULTI-CHANNEL NETWORK</p>
+          </div>
+        </a>
+
+        <!-- Tombol toggle untuk mode mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu Navigasi -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-white" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#tentang-kami">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#media">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-md-start" id="home">
+      <div class="container text-judul">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="fw-bold">
+              Solusi <span class="text-primary">Kreatif</span><br />Untuk Brand
+              yang<br />Berkembang
+            </h1>
+            <p class="mt-3">
+              Kami merancang strategi inovatif, desain memukau, dan kampanye
+              digital yang membantu brand Anda terhubung dengan audiens yang
+              tepat dan berkembang secara berkelanjutan.
+            </p>
+            <a href="#" class="btn btn-primary mt-3">Mulai Sekarang</a>
+            <a href="#" class="btn btn-link text-primary mt-3"
+              >Pelajari Lebih Lanjut</a
+            >
+          </div>
+          <div class="col-md-6 text-center mt-4 mt-md-0">
+            <img
+              src="assets/gambar-1.png"
+              class="img-fluid rounded-4 shadow"
+              alt="Ilustrasi Kreatif"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-3" style="background-color: #d9ff5a" id="fitur">
+      <div class="container d-flex justify-content-center">
+        <div
+          class="d-flex flex-wrap justify-content-center align-items-center bg-white shadow rounded-4 px-4 py-3 fitur-box"
+        >
+          <!-- Fitur 1 -->
+          <div class="d-flex align-items-center mx-3 my-2">
+            <div
+              class="fitur-icon fi text-white rounded-circle d-flex justify-content-center align-items-center me-3"
+              style="width: 55px; height: 55px"
+            >
+              <i class="bi bi-brush-fill fs-4"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-0">Kreatif</h6>
+              <small class="text-muted">Tanpa Batas</small>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="fitur-divider d-none d-md-block"></div>
+
+          <!-- Fitur 2 -->
+          <div class="d-flex align-items-center mx-3 my-2">
+            <div
+              class="fitur-icon fi text-white rounded-circle d-flex justify-content-center align-items-center me-3"
+              style="width: 55px; height: 55px"
+            >
+              <i class="bi bi-bullseye fs-4"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-0">Strategi</h6>
+              <small class="text-muted">Tepat Sasaran</small>
+            </div>
+          </div>
+
+          <!-- Divider -->
+          <div class="fitur-divider d-none d-md-block"></div>
+
+          <!-- Fitur 3 -->
+          <div class="d-flex align-items-center mx-3 my-2">
+            <div
+              class="fitur-icon fi text-white rounded-circle d-flex justify-content-center align-items-center me-3"
+              style="width: 55px; height: 55px"
+            >
+              <i class="bi bi-headset fs-4"></i>
+            </div>
+            <div>
+              <h6 class="fw-bold mb-0">Dukungan</h6>
+              <small class="text-muted">Sepanjang Waktu</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section class="white-section" id="tentang-kami">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="tentang-kami-card">
+              <h3 class="judul">TENTANG KAMI</h3>
+              <p>
+                PT. Vertex Media Group adalah jaringan Multi-Channel Network
+                (MCN) terkemuka yang membantu kreator dan mitra bisnis meraih
+                kesuksesan di era digital.
+              </p>
+              <p>
+                Kami menyediakan layanan menyeluruh — dari pengembangan,
+                monetisasi, hingga strategi distribusi — untuk memastikan setiap
+                kreator dan mitra bisnis berdaya saing global.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-4">
+              <!-- Pengembangan Akun & Strategi Konten -->
+              <div class="col-md-6">
+                <div class="feature-box blue-card">
+                  <i class="bi bi-graph-up"></i>
+                  <h5>Pengembangan Akun & Strategi Konten</h5>
+                  <p>
+                    Kami membantu kreator merancang strategi konten yang
+                    relevan, menarik, dan selaras dengan tren pasar.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Monetisasi & Komersialisasi -->
+              <div class="col-md-6">
+                <div class="feature-box white-card">
+                  <i class="bi bi-currency-exchange"></i>
+                  <h5>Monetisasi & Komersialisasi</h5>
+                  <p>
+                    Kami mendampingi kreator dalam optimasi penghasilan di
+                    TikTok, dari monetisasi resmi hingga kerja sama brand.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Kemitraan & Kolaborasi -->
+              <div class="col-md-6">
+                <div class="feature-box white-card">
+                  <i class="bi bi-globe"></i>
+                  <h5>Kemitraan & Kolaborasi</h5>
+                  <p>
+                    Menghubungkan kreator dengan brand, agensi, dan kreator lain
+                    untuk memperluas jangkauan dan dampak.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Pelatihan & Pendampingan Teknis -->
+              <div class="col-md-6">
+                <div class="feature-box blue-card">
+                  <i class="bi bi-person-video3"></i>
+                  <h5>Pelatihan & Pendampingan Teknis</h5>
+                  <p>
+                    Memberikan pelatihan dan dukungan teknis agar kreator siap
+                    bersaing di dunia digital.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Visi Misi -->
+    <section class="vision-section text-center" id="visi-misi">
+      <div class="container">
+        <h3 class="text-primary-vm">VISI KAMI</h3>
+        <p class="mb-5 visi">
+          Menjadi jaringan MCN terkemuka di kancah Internasional yang mendorong
+          pertumbuhan kreator
+          <br />
+          secara berkelanjutan dan berdampak luas di industri digital.
+        </p>
+        <h3 class="text-primary-vm">MISI KAMI</h3>
+        <div class="row mt-4">
+          <div class="col-md-3 mb-4">
+            <div class="feature-box-visi">
+              <i class="feature-icon-visi bi bi-globe"></i>
+              <p>Membuka akses terhadap peluang global bagi kreator.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="feature-box-visi">
+              <i class="feature-icon-visi bi bi-lightbulb-fill"></i>
+              <p>Memberikan dukungan kreatif dan teknis yang komprehensif.</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="feature-box-visi">
+              <i class="feature-icon-visi bi bi-people"></i>
+              <p>
+                Membangun komunitas kreator yang kolaboratif dan profesional.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-4">
+            <div class="feature-box-visi">
+              <i class="feature-icon-visi bi bi-share"></i>
+              <p>Menjadi penghubung terpercaya antara kreator dan brand.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kolaborasi -->
+    <section class="colaboration-section text-center py-5" id="kolaborasi">
+      <div class="container">
+        <h3 class="text-primary-vm mb-3">Our Collaboration</h3>
+
+        <p class="colab-desc mx-auto mb-4">
+          PT. Vertex Media Group berkolaborasi dengan berbagai brand untuk
+          menciptakan inovasi dan peluang bersama.
+        </p>
+
+        <img
+          src="assets/atenge_logo.png"
+          alt="Logo Mitra"
+          class="colab-logo img-fluid my-4"
+        />
+
+        <!-- Ikon Sosial Brand -->
+        <div class="brand-links mb-4">
+          <a
+            href="https://pt-atenge-tech-indonesia.b12sites.com/"
+            target="_blank"
+            ><i class="bi bi-globe"></i
+          ></a>
+          <a href="https://www.instagram.com/atenge_tech/" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://wa.me/085183068654" target="_blank"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
+          <a href="https://www.tiktok.com/@atenge.officia" target="_blank"
+            ><i class="bi bi-tiktok"></i
+          ></a>
+        </div>
+
+        <p class="colab-invite mt-3">
+          Tertarik untuk bekerja sama dengan kami?
+        </p>
+
+        <a href="https://wa.me/085183068654" class="btn-colab mt-2"
+          >Ajak Kami Kolaborasi</a
+        >
+      </div>
+    </section>
+
+    <!-- Portofolio -->
+    <section class="text-center py-5 bg-light" id="portofolio">
+      <div class="container">
+        <h3 class="text-primary-vm mb-3">Portfolio</h3>
+        <p class="mb-4">PT. Vertex Media Group Melampirkan Portofolio.</p>
+
+        <div
+          class="porto-scroll d-flex overflow-auto gap-4 px-2 pb-2 justify-content-center"
+        >
+          <div class="flex-shrink-0">
+            <img
+              src="assets/porto-2.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/porto-2.jpg"
+              style="cursor: pointer"
+            />
+          </div>
+
+          <div class="flex-shrink-0">
+            <img
+              src="assets/porto-3.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/porto-3.jpg"
+              style="cursor: pointer"
+            />
+          </div>
+
+          <div class="flex-shrink-0">
+            <img
+              src="assets/porto-4.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/porto-4.jpg"
+              style="cursor: pointer"
+            />
+          </div>
+
+          <div class="flex-shrink-0">
+            <img
+              src="assets/porto-5.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/porto-5.jpg"
+              style="cursor: pointer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div
+          class="modal-content bg-transparent border-0 shadow-none text-center position-relative"
+        >
+          <!-- Tombol Close -->
+          <i class="bi bi-x-lg close-icon" data-bs-dismiss="modal"></i>
+
+          <!-- Gambar -->
+          <img id="modalImage-porto" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Media Kit -->
+    <section class="vision-section text-center py-5" id="media">
+      <div class="container">
+        <h3 class="text-primary-vm mb-3">Media Kit</h3>
+        <p class="mb-4">PT. Vertex Media Group Melampirkan Media Kit</p>
+
+        <div
+          class="media-scroll d-flex overflow-auto gap-4 px-2 pb-2 justify-content-center"
+        >
+          <div class="flex-shrink-0">
+            <img
+              src="assets/media-kit-1.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/media-kit-1.jpg"
+              style="cursor: pointer"
+            />
+          </div>
+          <div class="flex-shrink-0">
+            <img
+              src="assets/media-kit-2.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/media-kit-2.jpg"
+              style="cursor: pointer"
+            />
+          </div>
+          <div class="flex-shrink-0">
+            <img
+              src="assets/media-kit-3.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/media-kit-3.jpg"
+              style="cursor: pointer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div
+          class="modal-content bg-transparent border-0 shadow-none text-center position-relative"
+        >
+          <!-- Tombol Close -->
+          <i class="bi bi-x-lg close-icon" data-bs-dismiss="modal"></i>
+
+          <!-- Gambar -->
+          <img id="modalImage-media" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricelist Kit -->
+    <section class="bg-light text-center py-5" id="price-list">
+      <div class="container">
+        <h3 class="text-primary-vm mb-3">Pricelist Information</h3>
+        <p class="mb-4">PT. Vertex Media Group Melampirkan Daftar Harga</p>
+
+        <div
+          class="pricelist-scroll d-flex overflow-auto gap-4 px-2 pb-2 justify-content-center"
+        >
+          <div class="flex-shrink-0">
+            <img
+              src="assets/price-1.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/price-1.jpg"
+              style="cursor: pointer"
+            />
+        </div>
+          <div class="flex-shrink-0">
+            <img
+              src="assets/price-2.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/price-2.jpg"
+              style="cursor: pointer"
+            />
+        </div>
+          <div class="flex-shrink-0">
+            <img
+              src="assets/price-3.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/price-3.jpg"
+              style="cursor: pointer"
+            />
+        </div>
+          <div class="flex-shrink-0">
+            <img
+              src="assets/price-4.jpg"
+              class="img-fluid rounded shadow-sm img-click"
+              data-src="assets/price-4.jpg"
+              style="cursor: pointer"
+            />
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div
+          class="modal-content bg-transparent border-0 shadow-none text-center position-relative"
+        >
+          <!-- Tombol Close -->
+          <i class="bi bi-x-lg close-icon" data-bs-dismiss="modal"></i>
+
+          <!-- Gambar -->
+          <img id="modalImage-price" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-light py-5" id="footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Kiri: Kontak -->
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h4 class="fw-bold mb-4">Kontak Kami</h4>
+
+            <ul class="list-unstyled footer-contact">
+              <li
+                class="footer-item d-flex align-items-center pb-2 mb-3 border-bottom"
+              >
+                <i class="bi bi-whatsapp me-3 fs-4 text-accent"></i>
+                <span>0821-2523-9388</span>
+              </li>
+
+              <li
+                class="footer-item d-flex align-items-center pb-2 mb-3 border-bottom"
+              >
+                <i class="bi bi-geo-alt me-3 fs-4 text-accent"></i>
+                <span>Boulevard Blok GBVD No. 3, Summarecon, Kab. Bogor</span>
+              </li>
+
+              <li
+                class="footer-item d-flex align-items-center pb-2 mb-3 border-bottom"
+              >
+                <i class="bi bi-envelope me-3 fs-4 text-accent"></i>
+                <span>vertexmedgroup@gmail.com</span>
+              </li>
+            </ul>
+
+            <div class="d-flex align-items-center mt-4 logo-bawah">
+              <img
+                src="assets/logo.png"
+                alt="VMG Logo"
+                class="me-3"
+                style="width: 70px"
+              />
+              <div class="me-3">
+                <h6 class="mb-0">PT. Vertex Media Group</h6>
+                <small>Multi-Channel Network</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kanan: Maps -->
+          <div class="col-md-6">
+            <div class="shadow rounded overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps?q=-6.617998,106.836392&hl=id&z=14&output=embed"
+                width="100%"
+                height="400"
+                allowfullscreen=""
+                loading="lazy"
+                class="map-frame"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <hr class="footer-line" />
+
+        <!-- Footer bawah -->
+        <div class="text-center small">
+          © 2025 PT. Vertex Media Group. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

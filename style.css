@@ -1,0 +1,541 @@
+body {
+  background-color: #d9ff5a;
+  padding-top: 120px;
+  font-family: "Poppins", sans-serif;
+}
+.white-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.vision-section {
+  background-color: #d9ff5a;
+  padding: 60px 0;
+}
+
+.custom-navbar {
+  background-color: #2e4dd8;
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  border-radius: 50px;
+  padding: 10px 25px;
+  width: 65%;
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  padding: 5px 30px;
+  background-color: rgba(53, 89, 224, 0.4);
+}
+
+.text-lightblue {
+  color: #a6c1ff;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.brand-text h1 {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.brand-text p {
+  font-size: 0.9rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #a6c1ff !important;
+}
+
+.hero {
+  padding: 80px 0;
+  background-color: #d9ff5a;
+}
+
+.hero .text-judul {
+  width: 75%;
+}
+
+.text-judul h1 {
+  font-size: 2.9rem;
+}
+
+.text-judul p {
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background-color: #2e4dd8;
+  border: none;
+  font-weight: 600;
+  padding: 12px 20px;
+}
+
+.btn-link {
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #253ebe;
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+  color: #1f35a5;
+}
+
+.social-icons {
+  position: fixed;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  gap: 1.2rem;
+}
+
+.social-icons a img {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.85;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.fitur-unggulan {
+  position: relative;
+  margin-top: -50px;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+}
+
+.fitur-box {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  padding: 25px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.fitur-divider {
+  width: 1px;
+  height: 55px;
+  background-color: #dee2e6;
+  align-self: center;
+}
+
+.fitur-icon {
+  background-color: #2e4dd8;
+}
+
+.tentang-kami-card {
+  background: linear-gradient(135deg, #e8efff 0%, #d8e3ff 100%);
+  border-left: 10px solid #3046d6;
+  border-radius: 20px;
+  padding: 40px 50px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  color: #333;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+/* Judul */
+.tentang-kami-card .judul {
+  color: #3046d6;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.tentang-kami-card p {
+  font-size: 1.1rem;
+}
+
+/* Efek hover lembut */
+.tentang-kami-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.feature-box {
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 30px;
+  height: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.feature-box i {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.feature-box h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.feature-box p {
+  margin: 0;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* Variasi warna */
+.blue-card {
+  background-color: #2e4dd8;
+  color: #fff;
+}
+
+.white-card {
+  background-color: #fff;
+  color: #333;
+}
+
+.white-card i {
+  color: #3366ff;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.vision-section .visi {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.text-primary-vm {
+  color: #2e4dd8;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 2.1rem;
+}
+
+.text-primary-vm::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 5px;
+  background-color: #02a95b;
+  border-radius: 2px;
+}
+
+.feature-box-visi {
+  background-color: #fff;
+  border-top: 8px solid #2e4dd8;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 30px;
+  height: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.feature-icon-visi {
+  font-size: 2.5rem;
+  color: #2e4dd8;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.colaboration-section {
+  background-color: #f9fbff;
+  padding: 80px 20px;
+}
+
+.colab-desc {
+  color: #444;
+  max-width: 650px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.colab-logo {
+  max-width: 160px;
+  opacity: 0.9;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.colab-logo:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.brand-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 10px;
+}
+
+.brand-links a {
+  color: #4a4de7;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.brand-links a:hover {
+  color: #2e4dd8;
+  transform: translateY(-3px);
+}
+
+.colab-invite {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.btn-colab {
+  background-color: #4a4de7;
+  color: #fff;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-colab:hover {
+  background-color: #2e4dd8;
+  transform: translateY(-2px);
+}
+
+/* Scroll halus dan horizontal */
+.porto-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+/* Hilangin scrollbar di browser modern */
+.porto-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.porto-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Responsif dan animasi */
+.porto-scroll img {
+  max-width: 300px;
+  transition: transform 0.3s ease;
+  cursor: grab;
+}
+
+.porto-scroll img:hover {
+  transform: scale(1.05);
+}
+
+#modalImage-porto {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+}
+
+.media-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+/* Hilangin scrollbar di browser modern */
+.media-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.media-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Responsif dan animasi */
+.media-scroll img {
+  max-width: 400px;
+  transition: transform 0.3s ease;
+  cursor: grab;
+}
+
+.media-scroll img:hover {
+  transform: scale(1.05);
+}
+
+#modalImage-media {
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+}
+.pricelist-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+/* Hilangin scrollbar di browser modern */
+.pricelist-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.pricelist-scroll::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+/* Responsif dan animasi */
+.pricelist-scroll img {
+  max-width: 300px;
+  transition: transform 0.3s ease;
+  cursor: grab;
+}
+
+.pricelist-scroll img:hover {
+  transform: scale(1.05);
+}
+
+#modalImage-price {
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+.close-icon {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 30px;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  border-radius: 50%;
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  transition: 0.2s ease;
+  z-index: 10;
+}
+
+.close-icon:hover {
+  background: rgba(255, 255, 255, 0.35);
+  transform: scale(1.12);
+}
+
+.footer {
+  background: linear-gradient(135deg, #3f51b5, #5c6bc0);
+  color: white;
+  padding: 50px 0;
+  position: relative;
+}
+
+.footer h4 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-contact {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-item {
+  border-color: rgba(255, 255, 255, 0.2); /* garis halus */
+  transition: all 0.3s ease;
+}
+
+.footer-item:hover {
+  transform: translateX(5px);
+  border-color: #00ff99; /* garis berubah warna pas hover */
+}
+
+.footer-contact i {
+  color: #00ff99;
+  min-width: 25px; /* biar ikon sejajar rata kiri */
+  text-align: center;
+}
+
+.footer-contact span {
+  color: #fff;
+}
+
+.text-accent {
+  color: #00ff99 !important;
+}
+
+.footer .map-frame {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.footer .logo-bawah h6 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* @media (max-width: 768px) {
+  .custom-navbar {
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .navbar-brand img {
+    width: 45px;
+    height: 45px;
+  }
+  .brand-text h5 {
+    font-size: 15px;
+  }
+  .brand-text small {
+    font-size: 11px;
+  }
+
+  .fitur-divider {
+    display: none;
+  }
+} */

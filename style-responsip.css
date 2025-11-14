@@ -1,0 +1,307 @@
+/* ============================
+   TABLET
+   ============================ */
+@media (max-width: 992px) {
+  .custom-navbar {
+    width: 89%;
+    padding: 8px 18px;
+    border-radius: 30px;
+  }
+
+  .navbar-brand img {
+    width: 32px;
+    height: 40px;
+  }
+
+  .brand-text h1 {
+    font-size: 0.95rem;
+  }
+
+  .brand-text p {
+    font-size: 0.75rem;
+  }
+
+  .navbar-toggler {
+    padding: 4px 8px !important;
+    border-radius: 10px;
+  }
+
+  .navbar-toggler-icon {
+    width: 22px;
+    height: 22px;
+  }
+  .hero {
+    padding: 60px;
+  }
+
+  .hero .text-judul {
+    width: 90%;
+  }
+
+  .text-judul h1 {
+    font-size: 2.2rem;
+  }
+
+  .text-judul p {
+    font-size: 0.95rem;
+  }
+
+  .hero img {
+    max-width: 85%;
+  }
+
+  .btn-primary {
+    padding: 10px 18px;
+    font-size: 0.95rem;
+  }
+
+  .btn-link {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+/* ============================
+   MOBILE
+   ============================ */
+@media (max-width: 768px) {
+  .custom-navbar {
+    width: 92%;
+    padding: 6px 14px;
+    border-radius: 20px;
+    top: 10px;
+  }
+
+  .navbar-brand {
+    gap: 6px;
+  }
+
+  .navbar-brand img {
+    width: 28px;
+    height: 34px;
+  }
+
+  .brand-text h1 {
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+  }
+
+  .brand-text p {
+    font-size: 0.65rem;
+  }
+
+  /* Toggler kecil, rapi */
+  .navbar-toggler {
+    padding: 3px 6px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    transform: scale(0.8);
+  }
+
+  #navbarNav {
+    background-color: #2e4dd8;
+    padding: 15px 10px;
+    margin-top: 8px;
+    border-radius: 12px;
+  }
+
+  .navbar-nav .nav-link {
+    text-align: center;
+    padding: 8px 0;
+    font-size: 0.9rem;
+    margin-left: 0;
+  }
+
+  .hero {
+    padding: 50px 0;
+    text-align: center;
+    margin-top: -2.5rem;
+  }
+
+  .hero .text-judul {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .text-judul h1 {
+    font-size: 1.9rem;
+    line-height: 1.3;
+  }
+
+  .text-judul p {
+    font-size: 0.9rem;
+  }
+
+  .hero img {
+    display: none;
+  }
+
+  .btn-primary {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+  }
+
+  .btn-link {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    display: inline-block;
+  }
+
+  /* Rapikan jarak antar tombol */
+  .hero a {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .social-icons a img {
+    display: none;
+  }
+
+  #fitur {
+    display: none;
+  }
+
+  .tentang-kami-card {
+    padding: 25px 30px;
+    max-width: 100%;
+  }
+
+  .tentang-kami-card .judul {
+    font-size: 1.2rem;
+  }
+
+  .tentang-kami-card p {
+    font-size: 0.85rem;
+  }
+
+  /* Card fitur jadi horizontal */
+
+  .feature-box i {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .feature-box h5 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .feature-box p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .text-primary-vm {
+    font-size: 1.7rem;
+  }
+
+  .visi {
+    font-size: 1rem;
+  }
+
+  .feature-box-visi {
+    padding: 25px;
+  }
+
+  .feature-icon-visi {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+
+  .feature-box-visi p {
+    font-size: 0.95rem;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer h4 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .footer-contact {
+    font-size: 14px;
+  }
+
+  .footer-item i {
+    font-size: 1.3rem;
+  }
+
+  .logo-bawah img {
+    width: 55px !important;
+  }
+
+  .logo-bawah h6 {
+    font-size: 1.1rem;
+  }
+
+  .footer .map-frame {
+    height: 300px !important;
+  }
+}
+
+/* ============================
+   MOBILE KECIL
+   ============================ */
+@media (max-width: 480px) {
+  .custom-navbar {
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 16px;
+    top: 8px;
+  }
+
+  .navbar-brand img {
+    width: 25px;
+    height: 30px;
+  }
+
+  .brand-text h1 {
+    font-size: 0.75rem;
+  }
+
+  .brand-text p {
+    font-size: 0.6rem;
+  }
+
+  .navbar-toggler {
+    padding: 2px 6px;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .text-judul h1 {
+    font-size: 1.6rem;
+  }
+
+  .text-judul p {
+    font-size: 0.85rem;
+  }
+
+  .hero img {
+    display: none;
+  }
+
+  .btn-primary {
+    padding: 9px 14px;
+    font-size: 0.85rem;
+  }
+
+  .btn-link {
+    font-size: 0.8rem;
+    padding: 7px 10px;
+  }
+
+  .social-icons a img {
+    display: none;
+  }
+}
